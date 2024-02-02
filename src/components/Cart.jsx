@@ -45,7 +45,7 @@ export default function Cart({ showModal, toggle }) {
 
   return (
     showModal && (
-      <div className="flex-col flex items-center fixed inset-0 left-1/4 bg-white dark:bg-white gap-8  p-10  text-white dark:text-white font-normal uppercase text-sm">
+      <div className="flex-col mt-16 flex items-center fixed inset-0 left-1/4 bg-white dark:bg-white gap-8  p-10  text-white dark:text-white font-normal uppercase text-sm">
         <ToastContainer />
         <h1 className="text-2xl text-black font-bold">Cart</h1>
         <div className="absolute right-16 top-10">

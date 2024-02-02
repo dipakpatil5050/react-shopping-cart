@@ -1,9 +1,13 @@
-import Products from './components/Products'
+import Navbar from "./components/Navbar";
+import Products from "./components/Products";
 
 function App() {
   return (
-    <Products />
-  )
+    <>
+      <Navbar />
+      <Products />
+    </>
+  );
 }
 
-export default App
+export default App;
